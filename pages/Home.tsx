@@ -21,7 +21,7 @@ export const Home: React.FC = () => {
               {/* Logo */}
               <div className="max-w-md mx-auto lg:mx-0">
                 <img 
-                  src="/images/Samprabha.jpg.jpeg" 
+                  src="/public/images/Samprabha.jpg.jpeg" 
                   alt="Samprabha Scientific Services" 
                   className="w-full h-auto object-contain"
                 />

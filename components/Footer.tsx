@@ -12,7 +12,7 @@ export const Footer: React.FC = () => {
           <div className="flex items-center gap-3 mb-6">
             <div className="relative">
                <div className="absolute inset-0 bg-scientific-teal/20 blur-md rounded-full" />
-               <img src="/images/Samprabha.jpg.jpeg" alt="Samprabha Logo" className="relative w-10 h-10 object-contain rounded-lg" />
+               <img src="/public/images/Samprabha.jpg.jpeg" alt="Samprabha Logo" className="relative w-10 h-10 object-contain rounded-lg" />
             </div>
             <div className="flex flex-col">
               <span className="font-mukti text-xl font-bold text-scientific-gold leading-none">समप्रभ</span>
