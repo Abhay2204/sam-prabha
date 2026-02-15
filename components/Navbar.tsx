@@ -55,6 +55,12 @@ export const Navbar: React.FC = () => {
               {item.label}
             </NavLink>
           ))}
+          <NavLink
+            to="/login"
+            className="px-5 py-2 bg-scientific-emerald text-white rounded-lg text-sm font-medium hover:bg-scientific-emeraldDark transition-colors"
+          >
+            Login
+          </NavLink>
           <a
             href="https://wa.me/916359982599"
             target="_blank"
@@ -91,11 +97,17 @@ export const Navbar: React.FC = () => {
                 {item.label}
               </NavLink>
             ))}
+            <NavLink
+              to="/login"
+              className="mt-2 text-center px-5 py-3 bg-scientific-emerald text-white rounded-lg font-medium"
+            >
+              Login
+            </NavLink>
             <a
               href="https://wa.me/916359982599"
               target="_blank"
               rel="noreferrer"
-              className="mt-2 text-center px-5 py-3 bg-scientific-gold text-white rounded-lg font-medium"
+              className="text-center px-5 py-3 bg-scientific-gold text-white rounded-lg font-medium"
             >
               Contact Us
             </a>

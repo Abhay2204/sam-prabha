@@ -2,7 +2,8 @@ import { Service, Testimonial, NavItem } from './types';
 
 export const NAV_ITEMS: NavItem[] = [
   { label: 'Home', path: '/' },
-  { label: 'Services', path: '/services' },
+  { label: 'Academic Services', path: '/services' },
+  { label: 'Analytical Testing', path: '/analytical-testing' },
   { label: 'About Us', path: '/about' },
   { label: 'Contact', path: '/contact' },
 ];
