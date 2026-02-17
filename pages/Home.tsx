@@ -21,7 +21,7 @@ export const Home: React.FC = () => {
               {/* Logo */}
               <div className="max-w-md mx-auto lg:mx-0">
                 <img 
-                  src="/images/Samprabha.jpg.jpeg" 
+                  src="/public/images/samprabhacompress.jpeg" 
                   alt="Samprabha Scientific Services" 
                   className="w-full h-auto object-contain"
                 />
@@ -173,7 +173,7 @@ export const Home: React.FC = () => {
       <section className="py-20 bg-scientific-offWhite">
         <div className="max-w-6xl mx-auto px-6">
           <div className="text-center mb-12">
-            <h2 className="font-serif text-4xl font-bold text-scientific-textDark mb-4">Our Services</h2>
+            <h2 className="font-serif text-4xl font-bold text-scientific-textDark mb-4">Academic Services</h2>
             <p className="text-gray-600 max-w-2xl mx-auto">
               Comprehensive solutions for every stage of your research journey
             </p>

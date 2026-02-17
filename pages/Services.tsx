@@ -15,7 +15,7 @@ export const Services: React.FC = () => {
             initial={{ opacity: 0, y: 20 }}
             animate={{ opacity: 1, y: 0 }}
           >
-            Academic Services
+            Our Services
           </motion.h1>
           <p className="max-w-3xl mx-auto text-scientific-textGray text-lg leading-relaxed">
             Comprehensive scientific support services designed to accelerate your research journey. From concept to publication, we provide expert guidance at every stage.

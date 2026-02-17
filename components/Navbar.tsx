@@ -29,7 +29,7 @@ export const Navbar: React.FC = () => {
       <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <NavLink to="/" className="flex items-center gap-2.5">
-          <img src="/images/Samprabha.jpg.jpeg" alt="Samprabha" className="w-10 h-10 object-contain rounded" />
+          <img src="/public/images/samprabhacompress.jpeg" alt="Samprabha" className="w-10 h-10 object-contain rounded" />
           <div className="flex flex-col">
             <span className="font-mukti text-lg font-bold text-scientific-gold leading-none">
               समप्रभ
@@ -55,12 +55,6 @@ export const Navbar: React.FC = () => {
               {item.label}
             </NavLink>
           ))}
-          <NavLink
-            to="/login"
-            className="px-5 py-2 bg-scientific-emerald text-white rounded-lg text-sm font-medium hover:bg-scientific-emeraldDark transition-colors"
-          >
-            Login
-          </NavLink>
           <a
             href="https://wa.me/916359982599"
             target="_blank"
@@ -97,17 +91,11 @@ export const Navbar: React.FC = () => {
                 {item.label}
               </NavLink>
             ))}
-            <NavLink
-              to="/login"
-              className="mt-2 text-center px-5 py-3 bg-scientific-emerald text-white rounded-lg font-medium"
-            >
-              Login
-            </NavLink>
             <a
               href="https://wa.me/916359982599"
               target="_blank"
               rel="noreferrer"
-              className="text-center px-5 py-3 bg-scientific-gold text-white rounded-lg font-medium"
+              className="mt-2 text-center px-5 py-3 bg-scientific-gold text-white rounded-lg font-medium"
             >
               Contact Us
             </a>
