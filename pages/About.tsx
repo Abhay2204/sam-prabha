@@ -16,7 +16,7 @@ export const About: React.FC = () => {
           {/* Logo */}
           <div className="flex justify-center mb-6">
             <img 
-              src="/public/images/samprabhacompress.jpeg" 
+              src="/images/samprabhacompress.jpeg" 
               alt="Samprabha Logo" 
               className="w-48 h-48 object-contain"
             />

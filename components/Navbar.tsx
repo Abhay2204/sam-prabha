@@ -29,7 +29,7 @@ export const Navbar: React.FC = () => {
       <div className="max-w-6xl mx-auto px-6 flex justify-between items-center">
         {/* Logo */}
         <NavLink to="/" className="flex items-center gap-2.5">
-          <img src="/public/images/samprabhacompress.jpeg" alt="Samprabha" className="w-10 h-10 object-contain rounded" />
+          <img src="/images/samprabhacompress.jpeg" alt="Samprabha" className="w-10 h-10 object-contain rounded" />
           <div className="flex flex-col">
             <span className="font-mukti text-lg font-bold text-scientific-gold leading-none">
               समप्रभ
